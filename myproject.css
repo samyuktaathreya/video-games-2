@@ -1,7 +1,5 @@
-css here. 
-
 #body {
-  background-image: linear-gradient(to bottom, #0033cc 0%, #99ccff 58%);
+  background-image: linear-gradient(to right, red , yellow);
 }
 
 #h1 {
@@ -21,4 +19,11 @@ css here.
   color: white;
   font-family: "arial";
   font-size: 10px;
+}
+
+#para {
+  text-align: center;
+  border: 3px white;
+  margin-left: 30px;
+  margin-right: 30px;
 }
