@@ -1,1 +1,24 @@
 css here. 
+
+#grad {
+  background-image: linear-gradient(to right, red , yellow);
+}
+
+#h1 {
+  color: white;
+  font-family: "arial";
+  font-size: 40px;
+  
+}
+
+#h2 {
+  color: white;
+  font-family: "arial";
+  font-size: 25px;
+}
+
+#h3 {
+  color: white;
+  font-family: "arial";
+  font-size: 10px;
+}
