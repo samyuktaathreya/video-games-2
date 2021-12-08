@@ -2,9 +2,9 @@ var myQuestions = [
     {
       question: "What is a video game?",
       answers: {
-        a: <img src="https://user-images.githubusercontent.com/94490873/145293557-65b0b2a4-8dc2-49b0-ba19-75da08e40f10.jpeg" style="float: right" height="250" width="250" id="img">,
-        b: 'A game th',
-        c: '115'
+        a: 'food',
+        b: 'A game that you play with you friends',
+        c: 'a hamburger'
       },
       correctAnswer: 'b'
     },
