@@ -8,6 +8,7 @@
     <!--title -->
     <title>Quiz!</title>
     <link href="myproject.css" rel="stylesheet" type="text/css" />
+    <link href="quiz.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="body">
@@ -16,14 +17,17 @@
         <a href="#Adven">Adventure game</a>
         <a href="#Racer">Need for speed: Rivals</a>
         <a href="#Multiplayer shooters">Multiplayer shooters</a>
-        <a href="#Sandbox">Quiz</a>
+        <a href="#quiz">Quiz</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <div id="quiz"></div>
-    <button id="submit">Get Results</button>
-    <div id="results"></div>
+    <div class="buttons">
+        <button id="btn0"><span id="choice0"></span></button>
+        <button id="btn1"><span id="choice1"></span></button>
+        <button id="btn2"><span id="choice2"></span></button>
+        <button id="btn3"><span id="choice3"></span></button>
+    </div>
    
     
     <script src="myproject.js"></script>
