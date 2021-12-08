@@ -1,9 +1,9 @@
 var myQuestions = [
     {
-      question: "What is 10/2?",
+      question: "What is a video game?",
       answers: {
-        a: '3',
-        b: '5',
+        a: <img src="https://user-images.githubusercontent.com/94490873/145293557-65b0b2a4-8dc2-49b0-ba19-75da08e40f10.jpeg" style="float: right" height="250" width="250" id="img">,
+        b: 'A game th',
         c: '115'
       },
       correctAnswer: 'b'
