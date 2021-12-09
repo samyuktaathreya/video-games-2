@@ -81,7 +81,7 @@ var questions = [
     new Question("Who made Valorant?", ["Apple", "Blizzard", "Riot", "Playboy"], "Riot"),
     new Question("What do you do in Need for Speed?", ["Commit war crimes", "Shoot people","Race", "Search engine"], "Race"),
     new Question("What are your thoughts on minorities?", ["hate them", "They suck", "I hate british 'people", "All"], "All"),
-    new Question("food", ["yes", "no", "pee", "poo"], "All")
+    new Question("food", ["yes", "no", "pee", "poo"], "poo")
 ];
  
 // create quiz
