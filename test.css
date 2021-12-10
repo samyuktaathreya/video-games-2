@@ -1,9 +1,8 @@
-#body {
-    height: 100%;
-   background-image: linear-gradient(to bottom right,  #1f7a7a, #99e6ff 58%);
-    background-repeat: no-repeat;
-}
-
+body {
+    background-image: url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png");
+    background-repeat: repeat-y;
+  }
+  
 #h1 {
     color: #00003E;
     font-family: 'serif';
