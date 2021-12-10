@@ -1,27 +1,12 @@
-body
-{
-  animation: welcome-fade 2s;
-}
-@keyframes welcome-fade {
-  from
-  {
-    color: #8b8b9200;
-  }
-  to
-  {
-    color: #00003E;
-  }
-}
-.tiledBackground {
-  background-image: 
-  url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png");
-  background-size: 100px;
-  width: 50px;
-  height: 50px;
-  border: 2px solid;
-  color: pink;
-}
 
+
+.bg{
+  background: url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 
 #h1 {
     color: #00003E;
