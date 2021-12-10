@@ -1,11 +1,18 @@
 
+#repeat { 
+  background-image:url("https://user-images.githubusercontent.com/94490873/145647754-21a66e77-2c8a-435a-ae35-f2d644c54d14.png");
+  background-repeat: repeat; }
+.bg {
+  /* The image used */
+  background-image: url("https://user-images.githubusercontent.com/94490873/145647754-21a66e77-2c8a-435a-ae35-f2d644c54d14.png");
 
-.bg{
-  background: url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png") no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #h1 {

@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html id="body">
+<html id="body" >
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <!--title -->
-    <title>title</title>
+    <title>Homepage</title>
     <link href="test.css" rel="stylesheet" type="text/css" />
 </head>
+<style>
 
+		
+		img.bg {
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+			
+			/* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		@media screen and (max-width: 1024px){
+			img.bg {
+				left: 50%;
+				margin-left: -512px; }
+		}
+		
+		#page-wrap { position: relative; width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
+	
+</style>
 <body id="body">
+<div id="repeat">
+    <img src="https://user-images.githubusercontent.com/94490873/145647754-21a66e77-2c8a-435a-ae35-f2d644c54d14.png" class="bg">
+    <!--welcome animation -->
     <div class="welcomePage">
-       
-       <p style="text-align:center;font-family:'sans serif';" >WELCOME</p>
+        <p>welcome!!</p>
+
     </div>
-    <div class="bg">
-    </div>
+    
+    <!--animation -->
     <div class="maintingz">
         <div class="topnav" id="myTopnav">
         <img src="https://user-images.githubusercontent.com/94490873/145520543-178c115d-c35d-4eba-9ec9-3fcf22d60600.png" alt="logo" style="width: 100px;height:50px; float:right">
@@ -30,7 +60,7 @@
     </div>
     </div>
     <div class="maintingz">
-    <div id="page-wrap">
+    <!--text -->
     <h1 id="h1">What are video games?</h1>
     <hr id="solid">
     <img src="https://user-images.githubusercontent.com/94490873/145293557-65b0b2a4-8dc2-49b0-ba19-75da08e40f10.jpeg" style="float: right" height="250" width="250" id="img">
@@ -74,7 +104,8 @@
         size of the 2019 global
         music industry and four times that of the 2019 film industry.
     </p>
-
+</div>
+</div>
 </div>
     <script src="myproject.js"></script>
 </body>
