@@ -1,3 +1,17 @@
+body
+{
+  animation: welcome-fade 2s;
+}
+@keyframes welcome-fade {
+  from
+  {
+    color: #8b8b9200;
+  }
+  to
+  {
+    color: #00003E;
+  }
+}
 .tiledBackground {
   background-image: 
   url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png");
@@ -7,7 +21,6 @@
   border: 2px solid;
   color: pink;
 }
-
 
 
 #h1 {
@@ -38,7 +51,7 @@
 }
 
 .topnav {
-    background-color: #333;
+    background-color: rgb(23, 8, 240);
     overflow: hidden;
 }
 

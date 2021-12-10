@@ -1,8 +1,39 @@
+
 body {
     background-image: url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png");
     background-repeat: repeat-y;
+    
   }
-  
+  .maintingz
+  {
+      opacity: 0;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.welcomePage{
+    animation: fadeOutAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+     }
+} 
 #h1 {
     color: #00003E;
     font-family: 'serif';
@@ -31,8 +62,9 @@ body {
 }
 
 .topnav {
-    background-color: #333;
+    background-color: rgb(180, 14, 14);
     overflow: hidden;
+    font-family: cursive;
 }
 
 
