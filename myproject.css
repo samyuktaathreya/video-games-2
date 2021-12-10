@@ -1,8 +1,8 @@
 .tiledBackground {
   background-image: url("https://user-images.githubusercontent.com/94490873/145522544-b20ac6d1-1c75-48f1-be13-4d392e5ef16a.png");
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
+  background-size: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px solid;
   color: pink;
 }
