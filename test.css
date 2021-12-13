@@ -56,20 +56,15 @@
 }
 
 #para {
-    text-align: center;
+    text-align: left;
     margin-left: 30px;
     margin-right: 30px;
     font-family: serif;
     font-size: large;
-    background-color: white;
-    width: 500px;
-    border: 5px solid white;
-    padding: 25px;
-    margin: 20px;
 }
 
 .topnav {
-    background-color: rgb(180, 14, 14);
+    background-color: rgb(245, 239, 239);
     overflow: hidden;
     font-family: cursive;
 }
@@ -117,6 +112,7 @@
   
   .topnav input[type=text] {
     padding: 6px;
+    margin-top: 8px;
     font-size: 17px;
     border: none;
   }
@@ -153,37 +149,24 @@
     }
   
   }
-  #page-wrap {
-    position: relative;
-    width: 400
-px;margin: 50
-px
-auto;
-    padding: 20
-px
-;
-    background: white;
-    -moz-box-shadow: 0 0 20px black;
-    -webkit-box-shadow: 0 0 20px black;
-    box-shadow: 0 0 20px black;
+  
+
+  /*Table of contents CSS*/
+  #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
-  #toc{
-    text-align: left;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-family: serif;
-    font-size: large;
-    background-color: white;
-    width: 500px;
-    border: 5px solid white;
-    padding: 25px;
-    margin: 20px;
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
 
-  }
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
