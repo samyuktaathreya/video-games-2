@@ -12,7 +12,7 @@
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 3s;
   }
   @keyframes fadeInAnimation {
     0% {
@@ -22,6 +22,7 @@
         opacity: 1;
      }
 }
+
 .welcomePage{
     animation: fadeOutAnimation ease 4s;
     animation-iteration-count: 1;
