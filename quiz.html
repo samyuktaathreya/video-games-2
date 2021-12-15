@@ -1,16 +1,52 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html id="body">
+=======
+<html id="body" >
+>>>>>>> 040a2feaed07b7be57a6621e6c96dfbc280ed31b
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <!--title -->
+<<<<<<< HEAD
     <title>Quiz!</title>
+=======
+    <title>Quiz</title>
+>>>>>>> 040a2feaed07b7be57a6621e6c96dfbc280ed31b
     <link href="test.css" rel="stylesheet" type="text/css" />
     <link href="quiz.css" rel="stylesheet" type="text/css" />
 </head>
+<style>
 
+		
+		img.bg {
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+			
+			/* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		@media screen and (max-width: 1024px){
+			img.bg {
+				left: 50%;
+				margin-left: -512px; }
+		}
+		
+		#page-wrap { position: relative; width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
+	
+</style>
 <body id="body">
+<<<<<<< HEAD
     <div class="topnav" id="myTopnav">
         <a href="#home" class="active">Home</a>
         <a href="#Adven">Adventure game</a>
@@ -39,8 +75,49 @@
             <footer>
                 <p id="progress">Question x of y</p>
             </footer>
+=======
+<div id="backgroundimage">
+    <img src="https://user-images.githubusercontent.com/94490873/145647754-21a66e77-2c8a-435a-ae35-f2d644c54d14.png" class="bg">
+   
+</div>
+
+    
+    
+ 
+<div class = "quizmaintingz">
+<div class="topnav" id="myTopnav">
+            <img src="https://user-images.githubusercontent.com/94490873/145520543-178c115d-c35d-4eba-9ec9-3fcf22d60600.png "
+                alt="logo" style="width: 100px;height:50px;float:right">
+            <a href="#home" class="active">Home</a>
+            <a href="#Adven">Adventure game</a>
+            <a href="#Racer">Need for speed: Rivals</a>
+            <a href="#Multiplayer shooters">Multiplayer shooters</a>
+            <a href="#Quiz">Quiz</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+</div>
+<div class="grid">
+    <div id="quiz">
+        <h1>Quiz in JavaScript  Webdevtrick.com</h1>
+        <hr style="margin-bottom: 20px">
+
+        <p id="question"></p>
+
+        <div class="buttons">
+            <button id="btn0"><span id="choice0"></span></button>
+            <button id="btn1"><span id="choice1"></span></button>
+            <button id="btn2"><span id="choice2"></span></button>
+            <button id="btn3"><span id="choice3"></span></button>
+>>>>>>> 040a2feaed07b7be57a6621e6c96dfbc280ed31b
         </div>
+
+        <hr style="margin-top: 50px">
+        <footer>
+            <p id="progress">Question x of y</p>
+        </footer>
     </div>
+<<<<<<< HEAD
 
 
     <script src="myproject.js"></script>
@@ -48,3 +125,12 @@
 </body>
 
 </html>
+=======
+</div>
+ <script src="myproject.js"></script>
+ <script src="quiz.js"></script>
+</body>
+
+</html>
+
+>>>>>>> 040a2feaed07b7be57a6621e6c96dfbc280ed31b
