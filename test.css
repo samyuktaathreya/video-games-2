@@ -84,7 +84,7 @@
 
 
 .topnav {
-    background-color: rgb(63, 45, 45);
+    background-color: rgb(246, 252, 251);
     overflow: hidden;
     font-family:  Helvetica;
 }
@@ -113,7 +113,7 @@
 /* Add a color to the active/current link */
 
 .topnav a.active {
-    background-color: #aa7004;
+    background-color: #0c88db;
     color: white;
 }
 
