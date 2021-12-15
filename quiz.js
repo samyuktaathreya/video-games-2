@@ -77,11 +77,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("What are video games?", ["A type of food stuff", "A game you play outside","Games on youtube ", "A game played on a computer"], "A game played on a computer"),
+    new Question("Who made Valorant?", ["Apple", "Blizzard", "Riot", "Playboy"], "Riot"),
+    new Question("What do you do in Need for Speed?", ["Commit war crimes", "Shoot people","Race", "Search engine"], "Race"),
+    new Question("What are your thoughts on minorities?", ["hate them", "They suck", "I hate british 'people", "All"], "All"),
+    new Question("food", ["yes", "no", "pee", "poo"], "All")
 ];
  
 // create quiz
