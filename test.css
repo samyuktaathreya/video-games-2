@@ -1,11 +1,20 @@
 
- #repeat { 
+ #backgroundimage { 
   background-image:url("https://user-images.githubusercontent.com/94490873/145647754-21a66e77-2c8a-435a-ae35-f2d644c54d14.png");
-  background-repeat: repeat; }
+  background-repeat: repeat;
+}
  bg { 
     background: url(https://user-images.githubusercontent.com/94490873/145647754-21a66e77-2c8a-435a-ae35-f2d644c54d14.png) no-repeat center center fixed; 
     background-size: cover;
-  }
+}
+.quizmaintingz
+{
+  opacity: 0;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+}
   .maintingz
   {
       opacity: 0;
@@ -75,7 +84,7 @@
 
 
 .topnav {
-    background-color: rgb(204, 29, 29);
+    background-color: rgb(63, 45, 45);
     overflow: hidden;
     font-family:  Helvetica;
 }
@@ -85,7 +94,7 @@
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #491a1a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -104,7 +113,7 @@
 /* Add a color to the active/current link */
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #aa7004;
     color: white;
 }
 
@@ -274,4 +283,7 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+body{
+  font-family: sans-serif;
 }
