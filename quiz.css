@@ -5,6 +5,7 @@ body {
 .grid {
     width: 590px;
     height: 550px;
+    height: 600px;
     margin: 0 auto;
     background-color: #fff;
     padding: 10px 50px 50px 50px;
