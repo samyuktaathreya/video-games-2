@@ -1,11 +1,11 @@
-
 body {
     background-color: #413D3D;
 }
  
 .grid {
-    width: 600px;
-    height: 500px;
+    width: 590px;
+    height: 550px;
+    height: 600px;
     margin: 0 auto;
     background-color: #fff;
     padding: 10px 50px 50px 50px;
@@ -14,7 +14,7 @@ body {
 }
  
 .grid h1 {
-    font-family: "sans-serif";
+    font-family: 'candara';
     background-color: #01BBFF;
     font-size: 60px;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 }
  
 .grid #question {
-    font-family: "monospace";
+    font-family: "candara";
     font-size: 30px;
     color: #01BBFF;
 }
@@ -41,7 +41,7 @@ body {
  
 #btn0, #btn1, #btn2, #btn3 {
     background-color: #01BBFF;
-    width: 250px;
+    width: 200px;
     font-size: 20px;
     color: #fff;
     border: 1px solid #1D3C6A;

@@ -70,7 +70,7 @@ function showProgress() {
  
 function showScores() {
     var gameOverHTML = "<h1>Result</h1>";
-    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
 };
@@ -80,8 +80,8 @@ var questions = [
     new Question("What are video games?", ["A type of food stuff", "A game you play outside","Games on youtube ", "A game played on a computer"], "A game played on a computer"),
     new Question("Who made Valorant?", ["Apple", "Blizzard", "Riot", "Playboy"], "Riot"),
     new Question("What do you do in Need for Speed?", ["Commit war crimes", "Shoot people","Race", "Search engine"], "Race"),
-    new Question("What are your thoughts on minorities?", ["hate them", "They suck", "I hate british 'people", "All"], "All"),
-    new Question("food", ["yes", "no", "pee", "poo"], "poo")
+    new Question("hello?", ["hi", "no", "bye", "All"], "All"),
+    new Question("food", ["yes", "no", "maybe", "sometimes"], "sometimes")
 ];
  
 // create quiz

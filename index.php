@@ -1,6 +1,7 @@
 <?php
     include 'header.php';
 ?>
+<link href="test.css" rel="stylesheet"type="text/css"/>
 <form action="search.php" method = "POST">
     <input type="text" name = "search" placeholder="Search">
     <button type = "submit" name = "submit-search">Purrch</button>
