@@ -80,8 +80,8 @@ var questions = [
     new Question("What are video games?", ["A type of food stuff", "A game you play outside","Games on youtube ", "A game played on a computer"], "A game played on a computer"),
     new Question("Who made Valorant?", ["Apple", "Blizzard", "Riot", "Playboy"], "Riot"),
     new Question("What do you do in Need for Speed?", ["Commit war crimes", "Shoot people","Race", "Search engine"], "Race"),
-    new Question("hello?", ["hi", "no", "bye", "All"], "All"),
-    new Question("food", ["yes", "no", "maybe", "sometimes"], "sometimes")
+    new Question("Who is the main character of Red Dead Redemption II?", ["John Marston", "Dutch van der Linde", "Arthur Morgan", "Joseph Stalin"], "Arthur Morgan"),
+    new Question("BONUS QUESTION. Who is the hottest member of our group?", ["Pranav", "Samyukta", "Dwijay", "Mr. Millard"], "Pranav")
 ];
  
 // create quiz

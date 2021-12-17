@@ -1,5 +1,6 @@
 body {
     background-color: #413D3D;
+    font-family:'helvetica';
 }
  
 .grid {
@@ -14,7 +15,7 @@ body {
 }
  
 .grid h1 {
-    font-family: 'candara';
+    font-family: 'helvetica';
     background-color: #01BBFF;
     font-size: 60px;
     text-align: center;
@@ -30,7 +31,7 @@ body {
 }
  
 .grid #question {
-    font-family: "candara";
+    font-family: "helvetica";
     font-size: 30px;
     color: #01BBFF;
 }
@@ -44,6 +45,7 @@ body {
     width: 200px;
     font-size: 20px;
     color: #fff;
+    font-family: Helvetica;
     border: 1px solid #1D3C6A;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
