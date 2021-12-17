@@ -14,7 +14,7 @@ body {
 }
  
 .grid h1 {
-    font-family: "sans-serif";
+    font-family: 'candara';
     background-color: #01BBFF;
     font-size: 60px;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 }
  
 .grid #question {
-    font-family: "helvetica";
+    font-family: "candara";
     font-size: 30px;
     color: #01BBFF;
 }
