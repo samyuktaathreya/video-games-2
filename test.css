@@ -81,7 +81,7 @@
 .topnav {
     background-color:rgb(63, 45, 45);
     overflow: hidden;
-    font-family:  Helvetica;
+    font-family:  "Lato";
 }
 
 
@@ -339,5 +339,5 @@
   }
 
 body{
-  font-family: helvetica;
+  font-family: "Lato";
 }}
