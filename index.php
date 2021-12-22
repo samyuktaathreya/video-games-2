@@ -6,7 +6,12 @@
     <input type="text" name = "search" placeholder="Search">
     <button type = "submit" name = "submit-search">Purrch</button>
 </form>
-
+<div style="background: ghostwhite; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin-left: 300px;
+  margin-right:300px;">
 <h1>Front Page</h1>
 <h2>All Articles</h2>
 <div class="article-container">
