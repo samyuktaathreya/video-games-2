@@ -5,8 +5,8 @@ body {
  
 .grid {
     width: 590px;
-    height: 550px;
-    height: 600px;
+    height: 1000px;
+    height: 800px;
     margin: 0 auto;
     background-color: #fff;
     padding: 10px 50px 50px 50px;
@@ -42,12 +42,12 @@ body {
  
 #btn0, #btn1, #btn2, #btn3 {
     background-color: #01BBFF;
-    width: 200px;
+    width: 300px;
     font-size: 20px;
     color: #fff;
     font-family: 'Lato';
     border: 1px solid #1D3C6A;
-    margin: 10px 40px 10px 0px;
+    margin: 20px 40px 20px 0px;
     padding: 10px 10px;
 }
  

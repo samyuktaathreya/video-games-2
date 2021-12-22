@@ -79,7 +79,7 @@
 
 
 .topnav {
-    background-color:rgb(63, 45, 45);
+    background-color:rgb(196, 29, 29);
     overflow: hidden;
     font-family:  "Lato";
 }
@@ -89,7 +89,7 @@
 
 .topnav a {
     float: left;
-    color: #bdb6b6;
+    color: #cf2222;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
