@@ -81,7 +81,7 @@
 .topnav {
     background-color:rgb(63, 45, 45);
     overflow: hidden;
-    font-family:  Helvetica;
+    font-family:  "Lato";
 }
 
 
@@ -338,10 +338,9 @@
     border: 1px solid #ccc;
   }
 
-body{
-  font-family: helvetica;
+.body{
+  font-family: "Lato";
 }}
-
 #Platforms{
   color: #00003E;
   font-size: 25px;
@@ -362,15 +361,19 @@ body{
   color: #00003E;
   font-size: 25px;
 }
+
 #Develpoment{
   color: #00003E;
   font-size: 25px;
 }
+
 #Browser{
   color: #00003E;
   font-size: 25px;
 }
-#Mobile{
+
+
+  #Mobile{
   color: #00003E;
   font-size: 25px;
 }

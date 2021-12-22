@@ -31,7 +31,7 @@ body {
 }
  
 .grid #question {
-    font-family: "helvetica";
+    font-family: "Lato";
     font-size: 30px;
     color: #01BBFF;
 }
@@ -45,7 +45,7 @@ body {
     width: 200px;
     font-size: 20px;
     color: #fff;
-    font-family: Helvetica;
+    font-family: 'Lato';
     border: 1px solid #1D3C6A;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
