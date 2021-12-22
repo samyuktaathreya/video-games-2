@@ -81,7 +81,7 @@ var questions = [
     new Question("Who made Valorant?", ["Apple", "Blizzard", "Riot", "Playboy"], "Riot"),
     new Question("What do you do in Need for Speed?", ["Commit war crimes", "Shoot people","Race", "Search engine"], "Race"),
     new Question("Who is the main character of Red Dead Redemption II?", ["John Marston", "Dutch van der Linde", "Arthur Morgan", "Joseph Stalin"], "Arthur Morgan"),
-    new Question("BONUS QUESTION. Who is the hottest member of our group?", ["Pranav", "Samyukta", "Dwijay", "Mr. Millard"], "Pranav")
+    new Question("BONUS QUESTION. Who is the hottest member of our group?", ["Pranav", "Samyukta", "Dwijay", "All of the above"], "All of the obvious")
 ];
  
 // create quiz
