@@ -11,12 +11,15 @@
         $queryResults = mysqli_num_rows($result); 
         if ($queryResults > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
-                echo "<div class = 'article-box'>
-                    <h3>".$row['a_title']."</h3>
-                    <p>".$row['a_text']."</p>
-                    <p>".$row['a_date']."</p>
-                    <p>".$row['a_author']."</p>
-                </div>";
+                if ($row['a_title']=="Red Dead Redemption II") {
+                    header("Location: rdr2.html");
+                }
+                if ($row['a_title']=="Valorant") {
+                    header("Location: valorant.html");
+                }
+                if ($row['a_title']=="Need For Speed") {
+                    header("Location: needforspeed.html");
+                }
             }
         }
     ?>
