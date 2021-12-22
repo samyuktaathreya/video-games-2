@@ -1,6 +1,6 @@
 body {
     background-color: #413D3D;
-    font-family:'helvetica';
+    font-family:"Lato";
 }
  
 .grid {
@@ -15,7 +15,7 @@ body {
 }
  
 .grid h1 {
-    font-family: 'helvetica';
+    font-family: "Lato";
     background-color: #01BBFF;
     font-size: 60px;
     text-align: center;
