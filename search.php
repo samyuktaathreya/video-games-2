@@ -1,6 +1,13 @@
 <?php
     include 'header.php'
 ?>
+<div class="article-container
+" style="background: ghostwhite; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin-left: 300px;
+  margin-right:300px;">
 <h1>Search Page</h1>
 
 <div class="article-container">
