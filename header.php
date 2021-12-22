@@ -57,7 +57,7 @@
 
     <div class="welcomePage">
 
-     <center> <h1>WELCOME<h1></center>
+     <center> <h1>BROWSE ARTICLES<h1></center>
     </div>
 
   </div>
